@@ -1,0 +1,47 @@
+@charset "UFT-8";
+/*
+* {
+    padding: 0px;
+    margin: 0px;
+}
+*/
+header {
+    color: white;
+    text-align: center; /* PARA CENTRALIZAR CONTEUDO SEMÁNTICO */
+    height: 300px;
+    padding-top: 20px;
+}
+
+body {
+    background-color: rgb(69, 173, 214);
+    font: normal 15pt Arial;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+    margin: auto; /* PARA CENTRALIZAR DIV */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356); text-align: center; /* Deslocamento lateral, deslocamento vertical, espalhamento e cor da SOMBRA + configuração manual de transparencia*/
+}
+
+footer {
+    color: white;
+    text-align: center; /* PARA CENTRALIZAR CONTEUDO SEMÁNTICO */
+    font-style: italic;
+    padding-top: 200px;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding-top: 50px;
+}
+
+#msg {
+    padding-top: 30px;
+}
+
